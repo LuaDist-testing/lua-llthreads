@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "lua-llthreads"
-version = "1.1-1"
--- LuaDist source
+version = "1.2-1"
 source = {
-  tag = "1.1-1",
-  url = "git://github.com/LuaDist-testing/lua-llthreads.git"
+	url = "git://github.com/Neopallium/lua-llthreads.git",
+	branch = "v1.2",
 }
--- Original source
--- source = {
--- 	url = "git://github.com/Neopallium/lua-llthreads.git",
--- 	branch = "v1.1",
--- }
 description = {
 	summary = "Low-Level threads for Lua",
 	homepage = "http://github.com/Neopallium/lua-llthreads",
