@@ -1,7 +1,7 @@
 About
 =====
 
-A simple Lua wrapper for pthreads.
+A simple Lua wrapper for pthreads & WIN32 threads.
 
 Each thread gets it's own `lua_State` and there is no shared global state.
 The parent thread can pass data to a child thread only as parameters when creating
@@ -23,10 +23,22 @@ Thread to Thread communication methods
 Installation
 ============
 
+Release 1.0
+-----------
+
+lua-llthread 1.0 release:
+
+	$ sudo luarocks install lua-llthreads
+
+Lastest Git Revision
+--------------------
+
 With LuaRocks 2.0.4.1:
+
 	$ sudo luarocks install https://github.com/Neopallium/lua-llthreads/raw/master/rockspecs/lua-llthreads-scm-0.rockspec
 
 With CMake:
+
 	$ git clone git://github.com/Neopallium/lua-llthreads.git
 	$ cd lua-llthreads ; mkdir build ; cd build
 	$ cmake ..
